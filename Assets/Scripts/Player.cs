@@ -114,11 +114,11 @@ public class Player : MonoBehaviour
     {
         if (gm.HaveNextStage())
         {
-            Invoke("NextStage", 3f);
+            Invoke("NextStage", 1.5f);
         }
         else
         {
-            Invoke("QuitGame", 3f);
+            Invoke("QuitGame", 2f);
         }
     }
 
