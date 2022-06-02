@@ -129,6 +129,7 @@ public class Player : MonoBehaviour
 
     void QuitGame()
     {
-        gm.QuitGame();
+        Destroy(gameObject);
+        //gm.QuitGame();
     }
 }
